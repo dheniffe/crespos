@@ -1,0 +1,506 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;800&family=Playfair+Display:wght@900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Playfair Display', serif;
+}
+
+:root {
+    --font-primary: 'Montserrat', sans-serif;
+    --font-secondary: 'Playfair Display', serif;
+}
+
+.container-header {
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    padding: 2rem 7rem 2rem 5rem;
+    background-color: #FFFFFF;
+}
+
+.menu-mobile {
+    display: none;
+}
+
+.logo {
+    width: 6rem;
+    height: 3rem;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.menu-items {
+    padding: 1rem 1rem;
+}
+
+.menu-links {
+    font-family: var(--font-primary);
+    font-size: 1rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: #9767A9;
+}
+
+.menu-links:hover {
+    cursor: pointer;
+    font-weight: 800;
+}
+
+.container-search {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.input-search {
+    width: 11rem;
+    height: 2rem;
+    border-radius: 50px;
+    border: 3px solid #9767A9;
+    position: relative;
+    font-family: var(--font-primary);
+    font-size: 0.9rem;
+    padding-left: 1.8rem;
+    margin-right: 1rem;
+}
+
+.input-search::placeholder {
+    color: #9767A9;
+}
+
+.input-magnifying__glass {
+    width: 1.1rem;
+    position: absolute;
+    top: 2rem;
+    right: 25rem;
+}
+
+.logo-media {
+    width: 2rem;
+    margin-left: 0.5rem;
+}
+
+.container-banner {
+    background-image: url('https://i.ibb.co/1ZPssrj/cabeludo.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.content-banner {
+    width: 75%;
+    margin-top: 9rem;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-title {
+    width: 25rem;
+    font-size: 6rem;
+    font-weight: 900;
+    line-height: 6rem;
+    font-family: var(--font-secondary);
+    color: #FFFFFF;
+}
+
+.banner-description {
+    width: 28rem;
+    font-size: 2.5rem;
+    font-weight: 300;
+    line-height: 3rem;
+    font-family: var(--font-primary);
+    color: #FFFFFF;
+}
+
+.presentation-tips {
+    height: 20rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 7rem 2rem 4.5rem;
+    background-color: #9767A9;
+}
+
+.presentation-title {
+    width: 53rem;
+    height: 11rem;
+    margin: 0 2rem 7rem 0;
+    font-family: var(--font-secondary);
+    font-size: 3rem;
+    color: #FFFFFF;
+}
+
+.presentation-description {
+    width: 40rem;
+    height: 16rem;
+    font-family: var(--font-primary);
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #FFFFFF;
+}
+
+.content-tips {
+    width: 100%;
+    height: 190rem;
+    display: flex;
+    flex-direction: column;
+    padding: 0 7rem 2rem 5rem;
+}
+
+.tips-row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tips {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.tips-images {
+    width: 38rem;
+    height: 32rem;
+}
+
+.tips-captions {
+    width: 30rem;
+    background-color: #9767A9;
+    padding: 1.5rem 2rem 3.5rem;
+}
+
+.captions-title {
+    width: 21rem;
+    margin-bottom: 0.5rem;
+    font-family: var(--font-secondary);
+    font-size: 1.5rem;
+    font-weight: 900;
+    line-height: 2.5rem;
+    color: #FFFFFF;
+}
+
+.captions-description {
+    height: 19.5rem;
+    font-size: 0.9rem;
+    font-weight: 300;
+    line-height: 1.5rem;
+    font-family: var(--font-primary);
+    color: #FFFFFF;
+}
+
+.tip-one {
+    width: 40rem;
+    position: absolute;
+    top: -2.8rem;
+}
+
+.caption-one {
+    width: 25.5rem;
+    height: 26rem;
+    position: absolute;
+    top: 21.5rem;
+}
+
+.title-one {
+    width: 16rem;
+}
+
+.tip-two {
+    position: absolute;
+    top: 15rem;
+}
+
+.caption-two {
+    width: 25.5rem;
+    height: 24rem;
+    position: absolute;
+    top: 37.5rem;
+}
+
+.tip-three {
+    width: 40rem;
+    position: absolute;
+    top: 50rem;
+}
+
+.caption-three {
+    width: 25.5rem;
+    height: 18.5rem;
+    position: absolute;
+    top: 73rem;
+}
+
+.title-three {
+    width: 13.4rem;
+}
+
+.tip-four {
+    position: absolute;
+    top: 66rem;
+}
+
+.caption-four {
+    width: 25.5rem;
+    height: 19rem;
+    position: absolute;
+    top: 96.3rem;
+}
+
+.tip-five {
+    width: 40rem;
+    position: absolute;
+    top: 98rem;
+}
+
+.caption-five {
+    width: 25.5rem;
+    height: 22rem;
+    position: absolute;
+    top: 121rem;
+}
+
+.tip-six {
+    position: absolute;
+    top: 118rem;
+}
+
+.caption-six {
+    width: 25.5rem;
+    height: 18rem;
+    position: absolute;
+    top: 146rem;
+}
+
+.tip-seven {
+    width: 40rem;
+    position: absolute;
+    top: 150rem;
+}
+
+.caption-seven {
+    width: 25.5rem;
+    height: 17rem;
+    position: absolute;
+    top: 172.5rem;
+}
+
+.img-cacho {
+    width: 23rem;
+    height: 4.5rem;
+    position: absolute;
+    top: 170rem;
+}
+
+.container-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 7rem 2rem 5rem;
+}
+
+.img-grid {
+    border: solid 6px #1838c4;
+    width: 100%;
+    height: 100%;
+}
+
+.footer {
+    width: 100%;
+    background-color: #9767A9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 7rem 2rem 5rem;
+}
+
+.footer-mobile {
+    display: none;
+}
+
+.footer-description {
+    font-size: 0.8rem;
+    line-height: 1rem;
+    color: #FFFFFF;
+    font-family: var(--font-primary);
+}
+
+.footer-menu {
+    display: flex;
+    align-items: center;
+}
+
+.footer-item {
+    width: 7rem;
+    list-style: none;
+}
+
+.footer-link {
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.descrption-link {
+    width: 4.3rem;
+    font-size: 1rem;
+    font-family: var(--font-primary);
+}
+
+
+@media (max-width: 600px) {
+    .container-header {
+        height: 2.5rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0;
+    }
+
+    .menu-mobile {
+        height: 100%;
+        display: initial;
+        padding: 0;
+    }
+
+    .img-menu__mobile {
+        height: 2.5rem;
+    }
+
+    .logo {
+        width: 3.5rem;
+        height: 2rem;
+    }
+
+    .container-menu {
+        display: none;
+    }
+
+    .logo-media {
+        display: none;
+    }
+
+    .menu-items {
+        display: none;
+    }
+
+    .menu-links {
+        display: none;
+    }
+
+    .input-search {
+        display: none;
+    }
+
+    .input-magnifying__glass {
+        display: none;
+    }
+
+    .container-banner {
+        background-image: url("https://i.ibb.co/fSqHVHw/mob-cabeludo-2x.png");
+        height: 23rem;
+        justify-content: start;
+        padding-left: 2rem;
+    }
+
+    .content-tips {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .content-banner {
+        height: 90%;
+        margin-top: 2rem;
+        display: initial;
+        align-items: center;
+    }
+
+    .banner-title {
+        width: 10.5rem;
+        font-size: 3rem;
+        line-height: 4rem;
+        padding-bottom: 1rem;
+    }
+
+    .banner-description {
+        width: 14rem;
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+    }
+
+    .presentation-tips {
+        display: block;
+        height: 15%;
+        padding: 2rem;
+    }
+
+    .presentation-title {
+        width: 20rem;
+        height: 4.5rem;
+        font-size: 1.4rem;
+        padding-bottom: 1rem;
+        margin: 0;
+    }
+
+    .presentation-description {
+        width: 20rem;
+        font-size: 0.9rem;
+        line-height: 1.5rem;
+    }
+
+    .tips {
+        width: 100%;
+        height: 673px;
+    }
+
+    .tips>figure {
+        top: unset;
+        display: flex;
+        justify-content: center;
+    }
+
+    .tips>figcaption {
+        top: 15rem;
+    }
+
+    .tips-images {
+        width: 20rem;
+        height: auto;
+    }
+
+    .img-cacho {
+        top: unset;
+    }
+
+    .tips-row {
+        flex-direction: column;
+    }
+
+    .footer {
+        background-color: #FFFFFF;
+    }
+
+    .footer-description {
+        color: #000;
+    }
+
+}
