@@ -26,7 +26,7 @@
     background-color: #FFFFFF;
 }
 
-.menu-mobile {
+.menu-toggle {
     display: none;
 }
 
@@ -103,7 +103,7 @@
 }
 
 .content-banner {
-    width: 75%;
+    width: 85rem;
     margin-top: 9rem;
     position: relative;
     display: flex;
@@ -134,43 +134,34 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2rem 7rem 2rem 4.5rem;
+    padding: 2rem 7rem 2rem 5rem;
     background-color: #9767A9;
 }
 
 .presentation-title {
-    width: 53rem;
-    height: 11rem;
-    margin: 0 2rem 7rem 0;
+    width: 49rem;
+    margin-bottom: 7rem;
     font-family: var(--font-secondary);
-    font-size: 3rem;
+    font-size: 2.9rem;
     color: #FFFFFF;
 }
 
 .presentation-description {
-    width: 40rem;
-    height: 16rem;
+    width: 42rem;
     font-family: var(--font-primary);
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-weight: 300;
     color: #FFFFFF;
 }
 
 .content-tips {
     width: 100%;
-    height: 190rem;
+    height: 185.5rem;
     display: flex;
     flex-direction: column;
-    padding: 0 7rem 2rem 5rem;
 }
 
-.tips-row {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-}
-
-.tips {
+.tip {
     width: 50%;
     display: flex;
     justify-content: center;
@@ -178,162 +169,146 @@
 }
 
 .tips-images {
-    width: 38rem;
-    height: 32rem;
+    width: 100%;
+    max-width: 40rem;
+    height: 100%;
+    max-height: 33rem;
 }
 
-.tips-captions {
+.image-captions {
     width: 30rem;
     background-color: #9767A9;
     padding: 1.5rem 2rem 3.5rem;
 }
 
 .captions-title {
-    width: 21rem;
-    margin-bottom: 0.5rem;
     font-family: var(--font-secondary);
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 900;
-    line-height: 2.5rem;
+    line-height: 3rem;
+    margin-bottom: 1rem;
     color: #FFFFFF;
 }
 
 .captions-description {
-    height: 19.5rem;
-    font-size: 0.9rem;
-    font-weight: 300;
+    font-size: 1rem;
     line-height: 1.5rem;
     font-family: var(--font-primary);
     color: #FFFFFF;
 }
 
 .tip-one {
-    width: 40rem;
-    position: absolute;
+    position: relative;
     top: -2.8rem;
 }
 
 .caption-one {
-    width: 25.5rem;
     height: 26rem;
     position: absolute;
-    top: 21.5rem;
-}
-
-.title-one {
-    width: 16rem;
+    top: 23rem;
 }
 
 .tip-two {
-    position: absolute;
-    top: 15rem;
+    position: relative;
+    top: 16rem;
 }
 
 .caption-two {
-    width: 25.5rem;
-    height: 24rem;
+    height: 23rem;
     position: absolute;
-    top: 37.5rem;
+    top: 40.9rem;
 }
 
 .tip-three {
-    width: 40rem;
-    position: absolute;
-    top: 50rem;
+    position: relative;
+    top: 16rem;
 }
 
 .caption-three {
-    width: 25.5rem;
-    height: 18.5rem;
+    height: 18rem;
     position: absolute;
-    top: 73rem;
+    top: 41rem;
 }
 
 .title-three {
-    width: 13.4rem;
+    width: 17rem;
 }
 
 .tip-four {
-    position: absolute;
-    top: 66rem;
+    position: relative;
+    top: 33.5rem;
 }
 
 .caption-four {
-    width: 25.5rem;
-    height: 19rem;
+    height: 18rem;
     position: absolute;
-    top: 96.3rem;
+    top: 66.5rem;
+}
+
+.title-four {
+    width: 26.5rem;
 }
 
 .tip-five {
-    width: 40rem;
-    position: absolute;
-    top: 98rem;
+    position: relative;
+    top: 34rem;
 }
 
 .caption-five {
-    width: 25.5rem;
-    height: 22rem;
+    height: 21.5rem;
     position: absolute;
-    top: 121rem;
+    top: 59rem;
 }
 
 .tip-six {
-    position: absolute;
-    top: 118rem;
+    position: relative;
+    top: 52rem;
 }
 
 .caption-six {
-    width: 25.5rem;
     height: 18rem;
     position: absolute;
-    top: 146rem;
+    top: 82.5rem;
 }
 
 .tip-seven {
-    width: 40rem;
-    position: absolute;
-    top: 150rem;
+    position: relative;
+    top: 52rem;
 }
 
 .caption-seven {
-    width: 25.5rem;
     height: 17rem;
     position: absolute;
-    top: 172.5rem;
+    top: 75rem;
 }
 
 .img-cacho {
-    width: 23rem;
+    width: 31rem;
     height: 4.5rem;
-    position: absolute;
-    top: 170rem;
+    position: relative;
+    top: 76rem;
 }
 
 .container-grid {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 2rem 7rem 2rem 5rem;
+    padding: 9rem 7rem 2rem 5rem;
 }
 
 .img-grid {
-    border: solid 6px #1838c4;
     width: 100%;
     height: 100%;
+    padding: 5px;
 }
 
-.footer {
+.container-footer {
     width: 100%;
     background-color: #9767A9;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 2rem 7rem 2rem 5rem;
-}
-
-.footer-mobile {
-    display: none;
 }
 
 .footer-description {
@@ -343,7 +318,9 @@
     font-family: var(--font-primary);
 }
 
-.footer-menu {
+.menu-footer {
+    width: 100%;
+    max-width: 1024px;
     display: flex;
     align-items: center;
 }
@@ -366,24 +343,218 @@
     font-family: var(--font-primary);
 }
 
+.copyright {
+    display: none;
+}
 
-@media (max-width: 600px) {
+.tips-row {
+    width: 100%;
+    padding-left: 2rem;
+    justify-content: space-between;
+    display: flex;
+}
+
+.container-menu__toggle {
+    display: none;
+}
+
+@media (max-width: 1024px) {
     .container-header {
-        height: 2.5rem;
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding: 0;
     }
 
-    .menu-mobile {
+    .menu-toggle {
+        height: 100%;
+        display: initial;
+        padding: 0;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .logo-media {
+        display: none;
+    }
+
+    .menu-items {
+        display: none;
+    }
+
+    .menu-links {
+        display: none;
+    }
+
+    .input-search {
+        width: 16rem;
+        height: 3rem;
+        margin: 0;
+    }
+
+    .input-magnifying__glass {
+        position: relative;
+        top: 0.2rem;
+        right: 15.5rem;
+    }
+
+    .container-banner {
+        background-image: url("https://i.ibb.co/fMJtKTN/mob-cabeludo-2x.png");
+    }
+
+    .content-tips {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .content-banner {
+        margin-left: 6rem;
+        display: initial;
+        margin-top: 3rem;
+    }
+
+    .banner-title {
+        width: 32rem;
+        font-size: 8.5rem;
+        line-height: 8rem;
+        padding-bottom: 5rem;
+    }
+
+    .banner-description {
+        width: 33rem;
+        font-size: 3rem;
+        line-height: 3.5rem;
+    }
+
+    .presentation-tips {
+        width: 100%;
+        max-width: 1024px;
+        margin: 0 auto;
+        display: block;
+        height: 15%;
+    }
+
+    .presentation-title {
+        width: 100%;
+        max-width: 57rem;
+        margin: 0;
+    }
+
+    .presentation-description {
+        width: 100%;
+        max-width: 57rem;
+        font-size: 1.5rem;
+    }
+
+    .content-tips {
+        top: unset;
+        height: auto;
+    }
+
+    .tip {
+        width: 100%;
+        height: 673px;
+    }
+
+    .tip-images {
+        width: 100%;
+        max-width: 20rem;
+        height: auto;
+    }
+
+    .tip-one {
+        top: unset;
+    }
+
+    .caption-one {
+        top: 22rem;
+    }
+
+    .tip-two {
+        top: 11rem;
+    }
+
+    .caption-two {
+        top: 34.5rem;
+    }
+
+    .tip-three {
+        top: 20rem;
+    }
+
+    .caption-three {
+        height: 18rem;
+        top: 45rem;
+    }
+
+    .tip-four {
+        top: 25.5rem;
+    }
+
+    .caption-four {
+        height: 18rem;
+        top: 54rem;
+    }
+
+    .tip-six {
+        top: 43rem;
+    }
+
+    .caption-six {
+        height: 18rem;
+        top: 72rem;
+    }
+
+    .img-cacho {
+        top: 60rem;
+    }
+
+    .container-grid {
+        margin-top: 15rem;
+    }
+
+    .tips-row {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .container-footer {
+        padding: 2rem 2rem 2rem 2rem;
+    }
+
+    .container-menu__toggle {
+        display: none;
+    }
+
+    .copyright {
+        display: none;
+    }
+
+    .menu-footer {
+        display: flex;
+    }
+
+}
+
+@media (max-width: 425px) {
+    .container-header {
+        height: 3rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0;
+    }
+
+    .menu-toggle {
         height: 100%;
         display: initial;
         padding: 0;
     }
 
     .img-menu__mobile {
-        height: 2.5rem;
+        height: 3rem;
     }
 
     .logo {
@@ -416,22 +587,16 @@
     }
 
     .container-banner {
-        background-image: url("https://i.ibb.co/fSqHVHw/mob-cabeludo-2x.png");
+        background-image: url("https://i.ibb.co/fMJtKTN/mob-cabeludo-2x.png");
         height: 23rem;
         justify-content: start;
         padding-left: 2rem;
     }
 
-    .content-tips {
-        height: auto;
-        flex-direction: column;
-    }
-
     .content-banner {
         height: 90%;
-        margin-top: 2rem;
         display: initial;
-        align-items: center;
+        margin-left: 1rem;
     }
 
     .banner-title {
@@ -445,6 +610,10 @@
         width: 14rem;
         font-size: 1.2rem;
         line-height: 1.5rem;
+    }
+
+    .content-tips {
+        padding-top: 1rem;
     }
 
     .presentation-tips {
@@ -467,40 +636,147 @@
         line-height: 1.5rem;
     }
 
-    .tips {
+    .tips-row {
         width: 100%;
-        height: 673px;
+        padding-left: 0;
     }
 
-    .tips>figure {
+    .tips-images {
+        width: 18rem;
+        height: 18rem;
+    }
+
+    .tip>figure {
         top: unset;
         display: flex;
         justify-content: center;
     }
 
-    .tips>figcaption {
+    .image-captions {
+        width: 100%;
+        max-width: 30rem;
+    }
+
+    .captions-title {
+        max-width: 16rem;
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    .captions-description {
+        font-size: 1rem;
+        line-height: 1.2rem;
+        font-weight: 200;
+    }
+
+    .caption-one {
+        height: 25rem;
+        top: 17rem;
+    }
+
+    .tip-two {
+        top: 2rem;
+    }
+
+    .caption-two {
+        height: 23rem;
+        top: 17rem;
+    }
+
+    .tip-three {
+        top: 1rem;
+    }
+
+    .caption-three {
+        height: 17rem;
         top: 15rem;
     }
 
-    .tips-images {
-        width: 20rem;
-        height: auto;
+    .title-three {
+        width: 13rem;
+    }
+
+    .tip-four {
+        top: -6.5rem;
+    }
+
+    .caption-four {
+        height: 21rem;
+        top: 10rem;
+    }
+
+    .tip-five {
+        top: -9rem;
+    }
+
+    .caption-five {
+        height: 21rem;
+        top: 3.5rem;
+    }
+
+    .tip-six {
+        top: -14rem;
+    }
+
+    .caption-six {
+        height: 18rem;
+        top: 2rem;
+    }
+
+    .tip-seven {
+        top: -18rem;
+    }
+
+    .caption-seven {
+        height: 17rem;
+        position: absolute;
+        top: -3rem;
     }
 
     .img-cacho {
-        top: unset;
+        width: 13rem;
+        height: 2.5rem;
+        top: -26rem;
     }
 
-    .tips-row {
-        flex-direction: column;
+    .container-grid {
+        display: none;
     }
 
-    .footer {
+    .container-footer {
+        padding: 1rem;
         background-color: #FFFFFF;
     }
 
+    .footer-mobile {
+        display: initial;
+    }
+
+    .copyright {
+        font-size: 0.5rem;
+        font-family: var(--font-primary);
+        font-weight: bold;
+    }
+
     .footer-description {
+        font-size: 0.5rem;
+        line-height: 0.5rem;
         color: #000;
     }
 
+    .menu-footer {
+        display: none;
+    }
+
+    .footer-item {
+        display: none;
+    }
+
+    .footer-link {
+        display: none;
+    }
+
+    .descrption-link {
+        display: none;
+    }
 }
