@@ -11,30 +11,36 @@
 </head>
 
 <body>
-  <header class="container-header">
-    <img src="assets/images/icons/mob-menu.svg" alt="menu mobile" class="menu-toggle">
-    <a href="#">
-      <img src="https://i.ibb.co/7V54Vmf/logo.png" alt="logo tô de cacho" class="logo">
-    </a>
-    <nav>
+  <header class="container-header on">
+    <div class="header-toggle">
+      <div class="menu-toggle">
+        <div class="one"></div>
+        <div class="two"></div>
+        <div class="three"></div>
+      </div>
+      <a href="#">
+        <img src="https://i.ibb.co/7V54Vmf/logo.png" alt="logo tô de cacho" class="logo">
+      </a>
+    </div>
+    <nav class="container-menu">
       <ul class="menu">
         <li class="menu-items">
-          <a href="#" class="menu-links">Dicas</a>
+          <a href="https://todecacho.com.br/blog_section/dicas/" class="menu-links">Dicas</a>
         </li>
         <li class="menu-items">
-          <a href="#" class="menu-links">Cronograma Capilar</a>
+          <a href="https://todecacho.com.br/cronograma-capilar-como-fazer/" class="menu-links">Cronograma Capilar</a>
         </li>
         <li class="menu-items">
           <a href="#" class="menu-links">Refêrencias</a>
         </li>
         <li class="menu-items">
-          <a href="#" class="menu-links">Produtos</a>
+          <a href="https://todecacho.com.br//?s=produtos" class="menu-links">Produtos</a>
         </li>
         <li class="menu-items">
-          <a href="#" class="menu-links">Cadastre-se</a>
+          <a href="https://todecacho.com.br/cadastre-se/" class="menu-links">Cadastre-se</a>
         </li>
         <li class="menu-items">
-          <a href="#" class="menu-links">Contato</a>
+          <a href="https://www.salonline.com.br/central-de-relacionamento" class="menu-links">Contato</a>
         </li>
       </ul>
     </nav>
@@ -43,19 +49,19 @@
         <input type="search" name="search" placeholder="Buscar" class="input-search">
         <img src="assets/images/icons/lupa-input.svg" alt="lupa da caixa buscar" class="input-magnifying__glass">
       </div>
-      <a href="#">
-        <img src="assets/images/icons/facebook.svg" alt="logo facebook" target="_blank" class="logo-media">
+      <a href="https://pt-br.facebook.com/todecacho/" target="_blank">
+        <img src="assets/images/icons/facebook.svg" alt="logo facebook" class="logo-media">
       </a>
-      <a href="#">
-        <img src="assets/images/icons/instagram.svg" alt="logo instagram" target="_blank" class="logo-media">
+      <a href="https://instagram.com/todecacho?igshid=YmMyMTA2M2Y=" target="_blank">
+        <img src="assets/images/icons/instagram.svg" alt="logo instagram" class="logo-media">
       </a>
-      <a href="#">
-        <img src="assets/images/icons/youtube.svg" alt="logo youtube" target="_blank" class="logo-media">
+      <a href="https://www.youtube.com/channel/UCCSYBRCyn4Xv4Vqh98d9eKA" target="_blank">
+        <img src="assets/images/icons/youtube.svg" alt="logo youtube" class="logo-media">
       </a>
     </section>
   </header>
   <main>
-    <section class="container-banner">
+    <section class="container-banner" id="top-page">
       <div class="content-banner">
         <h2 class="banner-title">Dicas e Truques</h2>
         <p class="banner-description">De quem sabe muito sobre cabelos crespos</p>
@@ -79,7 +85,7 @@
               <img src="https://i.ibb.co/3sn0XRz/01-kid.png" alt="criança negra, com um black e coroa."
                 class="tips-images">
             </figure>
-            <figcaption class="tips-captions caption-one">
+            <figcaption class="image-captions caption-one">
               <h4 class="captions-title title-one">1. Olhe para o espelho e toque no seu cabelo</h4>
               <p class="captions-description">
                 Olhando para o espelho, toque no seu cabelo com carinho, veja como é macio,
@@ -97,7 +103,7 @@
                 alt="mulher adulta negra, sentada em uma bancada, ao lado de sua versão mais jovem. ambas com cabelos crespos."
                 class="tips-images">
             </figure>
-            <figcaption class="tips-captions caption-two">
+            <figcaption class="image-captions caption-two">
               <h4 class="captions-title">2. Tenha referências</h4>
               <p class="captions-description">
                 Que tal parar de tentar se encaixar em padrões menores que você? O que a
@@ -113,9 +119,10 @@
         <div class="tips-row">
           <div class="tip">
             <figure class="tip-three">
-              <img src="https://i.ibb.co/Xtm8XHJ/03-man.png" alt="homem negro, com cabelos longos e black" class="tips-images">
+              <img src="https://i.ibb.co/Xtm8XHJ/03-man.png" alt="homem negro, com cabelos longos e black"
+                class="tips-images">
             </figure>
-            <figcaption class="tips-captions caption-three">
+            <figcaption class="image-captions caption-three">
               <h4 class="captions-title title-three">3. Seja amável com seus detalhes</h4>
               <p class="captions-description">
                 Sabe aquele frizz que você tenta esconder? E aquele volume que você tenta
@@ -130,7 +137,7 @@
               <img src="https://i.ibb.co/jgK7tW2/04-crown.png"
                 alt="mulher negra, com roupas de realeza e uma coroa em seu cabelo" class="tips-images">
             </figure>
-            <figcaption class="tips-captions caption-four">
+            <figcaption class="image-captions caption-four">
               <h4 class="captions-title title-four">4. Ignore as opiniões alheias</h4>
               <p class="captions-description">
                 Ouvir a opinião dos outros, principalmente as negativas, nunca levou ninguém a lugar nenhum. A sociedade
@@ -148,7 +155,7 @@
                 alt="menina negra, com as mãos no rosto de sua mãe, como quem fosse encostar seus lábios no dela"
                 class="tips-images">
             </figure>
-            <figcaption class="tips-captions caption-five">
+            <figcaption class="image-captions caption-five">
               <h4 class="captions-title">5. Procure suas raízes</h4>
               <p class="captions-description">
                 Passar pela transição é uma das formas de encontrar as suas raízes, aquelas
@@ -164,7 +171,7 @@
               <img src="https://i.ibb.co/QXM11m7/06-shampoo.png"
                 alt="mãos ensaboadas, massageando o couro cabeludo, para que o mesmo fique limpo" class="tips-images">
             </figure>
-            <figcaption class="tips-captions caption-six">
+            <figcaption class="image-captions caption-six">
               <h4 class="captions-title">6. Respeite suas fases</h4>
               <p class="captions-description">
                 Você não precisa ter aquele cabelo enorme e super volumoso. Um cabelo crespo
@@ -181,7 +188,7 @@
               <img src="https://i.ibb.co/WF58hL1/07-woman.png"
                 alt="mulher negra, cabelos louros platinados e um grande sorriso no rosto" class="tips-images" />
             </figure>
-            <figcaption class="tips-captions caption-seven">
+            <figcaption class="image-captions caption-seven">
               <h4 class="captions-title">7. Tenha orgulho dele</h4>
               <p class="captions-description">
                 Se você chegou até aqui, é porque enfrentou uma sociedade inteira, entrou em uma luta difícil consigo
@@ -191,7 +198,7 @@
             </figcaption>
           </div>
           <div class="tip">
-            <img src="https://i.ibb.co/zSt1Qg6/cacho.png" alt="fio de cabelo crespo" class="img-cacho"/>
+            <img src="https://i.ibb.co/zSt1Qg6/cacho.png" alt="fio de cabelo crespo" class="img-cacho" />
           </div>
         </div>
       </div>
@@ -199,42 +206,42 @@
     <section class="container-grid">
       <div>
         <figure>
-          <img src="https://i.ibb.co/9vNKnqn/01-grid.png" alt="homem preto, usando dreads e coroa" class="img-grid"/>
+          <img src="https://i.ibb.co/9vNKnqn/01-grid.png" alt="homem negro, usando dreads e coroa" class="img-grid" />
         </figure>
         <figure>
-          <img src="https://i.ibb.co/MDykTT5/02-grid.png" alt="Glória Maria, reporter consagrada, mulher preta, de meia idade, em diferentes fases da suas vida e com diferentes cortes de cabelo" class="img-grid"/>
-        </figure>
-      </div>
-      <div>
-        <figure>
-          <img src="https://i.ibb.co/RSPJwqn/03-grid.png" alt="Beyonce, artista da música, reconhecida internacionalmente, mulher preta, com cabelos volumosos e cacheados, segurando um microfone e sorrindo" class="img-grid"/>
-        </figure>
-        <figure>
-          <img src="https://i.ibb.co/PC71XTV/04-grid.png" alt="Killmonger, personagem do filme Patera Negra. Homem preto, usando dreads e colar de ossos. possui diversas cicatrizes espalhadas pelo corpo" class="img-grid"/>
-        </figure>
-        <figure>
-          <img src="https://i.ibb.co/p2L29QC/05-grid.png" alt="Tais Araujo, atriz, priemira muher preta a protagonizar uma novela em horário nobre. Cabelos longos, escuros e volumosos" class="img-grid"/>
+          <img src="https://i.ibb.co/MDykTT5/02-grid.png" alt="a" class="img-grid" />
         </figure>
       </div>
       <div>
         <figure>
-          <img src="https://i.ibb.co/bLjS0y3/06-grid.png" alt="mulher preta, cabelo curto e raspado nas laterais. cigarro na boca, corpo pintado de preto e sobretudo da mesma cor" class="img-grid"/>
+          <img src="https://i.ibb.co/RSPJwqn/03-grid.png" alt="a" class="img-grid" />
         </figure>
         <figure>
-          <img src="https://i.ibb.co/PzbktQk/07-grid.png" alt="Snoop Dogg, rapper, compositor e ator estadunidense. cabelos enrolados e uma boina rosa" class="img-grid"/>
+          <img src="https://i.ibb.co/PC71XTV/04-grid.png" alt="a" class="img-grid" />
+        </figure>
+        <figure>
+          <img src="https://i.ibb.co/p2L29QC/05-grid.png" alt="a" class="img-grid" />
+        </figure>
+      </div>
+      <div>
+        <figure>
+          <img src="https://i.ibb.co/bLjS0y3/06-grid.png" alt="a" class="img-grid" />
+        </figure>
+        <figure>
+          <img src="https://i.ibb.co/PzbktQk/07-grid.png" alt="a" class="img-grid" />
         </figure>
       </div>
       </div>
       <figure>
-        <img src="https://i.ibb.co/WxJC9Xx/08-grid.png" alt="homem preto, cabelos muito longos e volumosos, posando para a foto" class="img-grid"/>
+        <img src="https://i.ibb.co/WxJC9Xx/08-grid.png" alt="a" class="img-grid" />
       </figure>
       </div>
       <div>
         <figure>
-          <img src="https://i.ibb.co/7bQrQmn/09-grid.png" alt="close no rosto de uma mulher preta, com o cabelo trançado na frente e solto na parte de trás" class="img-grid"/>
+          <img src="https://i.ibb.co/7bQrQmn/09-grid.png" alt="" class="img-grid" />
         </figure>
         <figure>
-          <img src="https://i.ibb.co/gywd9bG/10-grid.png" alt="homem preto, cabelos raspado nas laterais e um pequeno topete em cima. unhas grandes e pontudas" class="img-grid"/>
+          <img src="https://i.ibb.co/gywd9bG/10-grid.png" alt="" class="img-grid" />
         </figure>
       </div>
     </section>
@@ -258,7 +265,7 @@
           <ul class="menu-footer__toggle">
             <li class="item-toggle">
               <a href="#" class="footer-link__toggle">
-                <img src="assets/images/icons/mob-esquerda.png" alt="página anterior" class="footer-image__toggle">
+                <img src="assets/images/icons/mob-left.png" alt="página anterior" class="footer-image__toggle">
               </a>
             </li>
             <li class="item-toggle">
@@ -268,7 +275,7 @@
             </li>
             <li class="item-toggle">
               <a href="#" class="footer-link__toggle">
-                <img src="assets/images/icons/mob-direita.png" alt="próxima página" class="footer-image__toggle">
+                <img src="assets/images/icons/mob-right.png" alt="próxima página" class="footer-image__toggle">
               </a>
             </li>
           </ul>
@@ -284,20 +291,20 @@
         <ul class="menu-footer">
           <li class="footer-item">
             <a href="#" class="footer-link">
-              <img src="assets/images/icons/left-arrow.svg" alt="página anterior"/>
+              <img src="assets/images/icons/left-arrow.svg" alt="página anterior" />
               <p class="descrption-link">página anterior</p>
             </a>
           </li>
           <li class="footer-item">
-            <a href="#" class="footer-link">
-              <img src="assets/images/icons/up-arrow.svg" alt="voltar ao topo"/>
+            <a href="#top-page" class="footer-link">
+              <img src="assets/images/icons/up-arrow.svg" alt="voltar ao topo" />
               <p class="descrption-link">voltar ao topo</p>
             </a>
           </li>
-          <li class="footer-item">
+          <li class="footer-item item-">
             <a href="#" class="footer-link">
-              <img src="assets/images/icons/right-arrow.svg" alt="próxima página"/>
               <p class="descrption-link">próxima página</p>
+              <img src="assets/images/icons/right-arrow.svg" alt="próxima página" />
             </a>
           </li>
         </ul>
